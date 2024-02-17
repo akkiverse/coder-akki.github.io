@@ -1,0 +1,94 @@
+{% extends "nav.html" %}
+{% block content %}
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+<!-- ==============Home==============-->
+<div class="container">
+<section id="home">
+    <div class="content-wrapper">
+        <div class="content">
+            <!-- <div class="left-section">
+                <div class="profile-image" id="profile-image">
+                    <img src="{{ url_for('static', filename='assets/profile_image.jpeg') }}" alt="Profile Image">
+                </div>
+                
+            </div> -->
+            <div class="intro">
+                <h3><span>Welcome to the digital realm of</span></h3>
+                <h1><span class="name"><strong>Abhishek_Singh</strong></span></h1>
+                <div class="details">
+                    <h7><span>As a software developer, I sculpt code into elegant solutions that redefine possibilities.</span></h7>
+                </div>
+                <div class="social-links">     
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="github"><i class="bx bxl-github"></i></a>
+                <a href="#" class="mail"><i class='bx bx-envelope' ></i></a>
+                </div>
+            </div>   
+        </div>
+    </div>
+</section>
+
+<!-- ==============About==============-->
+<section id="about">
+    <div>
+        <div class="about-section">
+            <div class="about-content">
+                <p>
+                    Hello there! My name is Abhishek Kumar Singh, and I am a passionate software engineer, specializing in Python development. Currently, I am dedicatedly contributing as a Backend Developer at Epam Systems, where I have been honing my skills for over two years now.
+                </p>
+                <p>
+                    My journey commenced in 2019 at Zensar Technologies, where I immersed myself in the intricate world of the BFSI domain. After gaining invaluable experience for nearly two years, I transitioned to FIME, where I delved into the dynamic realm of payment systems. Following a fruitful tenure of six months, I embarked on a new chapter at Epam Systems on November 1, 2021.
+                </p>
+                <p>
+                    Academically, I hold a Bachelor of Engineering (BE) degree in Computer Science, which I obtained in 2019. My thirst for knowledge is insatiable, and I am committed to lifelong learning and growth in the ever-evolving field of technology.
+                </p>
+                <p>
+                    Beyond the realm of coding, I find solace in the rhythm of cricket and the thrill of crafting innovative projects. Whether on the field or behind the screen, I am driven by a relentless passion for excellence and creativity.
+                </p>
+            </div>
+            <div class="download-button">
+                <a href="{{ url_for('static', filename='assets/resume.pdf') }}" class="download-link">
+                    <i class='bx bxs-download'></i> Download my resume
+                </a>
+            </div>
+        </div>   
+    </div>
+
+</section>
+
+<!-- ==============Resume==============-->
+<!-- <section id="resume">
+    <div class="content">
+        <div>
+            <h3><span>Welcome to the digital realm of</span></h3>
+            <h1><span class="name"><strong>Abhishek_Singh</strong></span></h1>
+            <div class="details">
+                <h7><span>As a software developer, I sculpt code into elegant solutions that redefine possibilities.</span></h7>
+            </div>
+            <div class="social-links">     
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            <a href="#" class="github"><i class="bx bxl-github"></i></a>
+            <a href="#" class="mail"><i class='bx bx-envelope' ></i></a>
+            </div>
+        </div>   
+    </div>
+</section> -->
+
+<!-- ==============Work==============-->
+
+<section id="work">
+    
+    <div>
+        <div>
+            <h1> <strong style="color: red;"> Working on Uploading My Works </strong></h1>
+            <h4> <strong style="color: rgb(79, 240, 194); white-space: nowrap;"> Patience, fellow coders! Our website is still compiling the perfect user experience.  </strong></h4>
+        </div>   
+    </div>
+
+</section>
+</div>
+
+{% endblock %}
